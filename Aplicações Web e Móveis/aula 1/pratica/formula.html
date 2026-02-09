@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="" method="POST">
+        <br>
+        <br>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu Nome" size="50">
+        <br>
+        <br>
+        <br>
+        <label for="senha">Senha:</label>
+        <input type="text" type="password" id="senha" name="senha" size="8" maxlength="8">
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <label for="linguagem">Linguagem que tem interrese:</label>
+            <input type="checkbox" name="linguagem[]" value="c++">C++
+            <input type="checkbox" name="linguagem[]" value="java">Java
+            <input type="checkbox" name="linguagem[]" value="python">Python
+        </fieldset>
+        <label for="linguagemescolhida">Linguagem que irá cursar agora</label>
+        <br>
+        <br>
+        <input type="radio" name="curso" value="c++">C++
+        <input type="radio" name="curso" value="java">Java
+        <input type="radio" name="curso" value="python">Python
+        <br>
+        <br>
+        <select name="escola">
+            <option value="c++">C++</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" type="submit"  id="submit" value="Enviar">
+
+    </form>
+        
+</body>
+</html>
